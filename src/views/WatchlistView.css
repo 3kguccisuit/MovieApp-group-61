@@ -1,0 +1,47 @@
+/* .watchlist-presenter {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  } */
+  
+  .watchlist-presenter {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: bottom;
+    justify-content: center;
+  }
+  .watchlist-presenter li {
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .watchlist-presenter img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .watchlist-presenter li:hover button {
+    display: block;
+  }
+
+  .watchlist-presenter li button {
+    display: none;
+    /* display: hidden; */ 
+  }
+
+  .watchlist-presenter li:hover img {
+    opacity: 0.5;
+  }
+
+  .watchlist-presenter .image-container {
+    position: relative;
+  }
+  
+  .watchlist-presenter .image-container button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
