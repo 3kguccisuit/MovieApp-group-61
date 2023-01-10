@@ -1,0 +1,149 @@
+@media (max-width: 600px) {
+  .details-view {
+    flex-direction: column;
+  }
+
+  .details-view > div {
+    margin: 1em 0 0 0;
+    width: 100%;
+  }
+}
+
+.details-view {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  
+}
+
+.details-view h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* .details-view img {
+  width: 20%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  margin-right: 2em;
+  height: 400px;
+  width: 300px;
+} */
+
+.details-view div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details-view div p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.details-view div p.label {
+  font-weight: bold;
+  color: #666;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.2em;
+}
+
+.details-view div p.plot {
+  font-style: italic;
+  color: #666;
+}
+
+.label {
+  font-weight: bold;
+  color: #333;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  display: block;
+  margin-top: 1em;
+  height: 400px;
+  width: 250px;
+}
+
+.back-button {
+  float: left;
+  margin-right: 1em;
+}
+
+.back-button button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8em 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 1em;
+}
+
+.back-button button:hover {
+  background-color: green;
+}
+
+.add-to-button button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8em 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: auto;
+}
+
+.add-to-button button:hover {
+  background-color: green;
+} 
+
+/* .back-button button:active {
+  transform: translateY(2px);
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  margin-right: auto;
+}
+
+.add-button {
+  margin-left: auto;
+}
+
+img {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+} */
+  

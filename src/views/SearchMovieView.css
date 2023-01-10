@@ -1,0 +1,146 @@
+/* .movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  } */
+
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: bottom;
+    justify-content: center;
+  }
+  
+  .movie-item {
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .movie-item:hover button {
+    display: block;
+  }
+
+  .movie-item button {
+    display: none;
+  }
+
+  .movie-item:hover img {
+    opacity: 0.5;
+  }
+
+  .movie-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .movie-poster {
+    width: 100%;
+    max-width: 300px;
+    max-height: 285px;
+    min-height: 285px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .movie-info {
+    width: 100%;
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .search-container {
+    margin-left: auto; 
+  }
+
+  .movie-poster-container {
+    position: relative;
+  }
+  
+  .add-to-watchlist-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+  }
+
+  /* .add-to-watchlist-button button:active {
+    transform: translateY(2px);
+  } */
+
+  .go-to-details-button {
+    top: 0px;
+    right: 0px;
+  }
+
+
+  /* MessagePresenter */
+
+  .message-container-1 {
+    background-color: rgb(1, 33, 1);
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    border-radius: 10px;
+  }
+
+  .message-1{
+    color: white;
+  }
+
+  .message-container-2 {
+    background-color: red;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 105px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    min-width: 200px; 
+    max-width: 273px;
+    min-height: 50px;
+    max-height: 100px;
+
+    border-radius: 10px;
+  }
+  .message-2{
+    color: black;
+    font-size: large;
+  }
+
+  .close-button {
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 10px;
+  } 
+
+  .not-found{
+    font-size: 20px;
+    padding: 10px; 
+    color: black;
+  }
+
+
+
+
+  
+
+  
