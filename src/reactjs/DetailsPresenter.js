@@ -50,6 +50,7 @@ const Details = (props) => {
             Type: Type,
             imdbID: imdbID
         }
+
         if (!user) {
             //alert("Log in to save to watchlist")
             setMessage("Log in to save to watchlist");
@@ -60,6 +61,10 @@ const Details = (props) => {
             props.model.addMovie(movieToAdd)
             setMessage(`${Title} has been added`);
             setmMessageType(1);
+        }
+        else{
+            setMessage(`${Title} has already been added`);
+            setmMessageType(2);
         }
         updateFirebaseAdd(props.model.movies, user);
     }
